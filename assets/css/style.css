@@ -1,0 +1,23 @@
+.logo {
+	display: inline-block;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: bold;
+	font-size: 2em;
+	letter-spacing: 0.04em;
+	background-color: #ffc3e4;
+	color: #ffffff;
+	padding: 1em;
+	width: auto;
+}
+
+.main-photo {
+	float: left;
+	padding: 0 1em 1em 0;
+	width: 160px;
+	height: 240px;
+}
+
+.social {
+    width: 60px;
+    height: auto 
+}
