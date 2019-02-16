@@ -1,4 +1,4 @@
-/* About Page CSS */
+/* Contact Sheet CSS */
 /* HTML Elements */
 
 html {
@@ -18,7 +18,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Header */
-
 header {
 	width: 100%;
 	height: auto;
@@ -31,24 +30,21 @@ header .container {
 	margin: 0 auto 
 }
 
-/* Overall layout */
+/* Overall Layout */
 
 .nav {
-	width: 49%;
+	width: 37%;
 	text-align: right;
-	color: pink;
+	color: #ffffff;
 	font-weight: normal;
-	margin-left: 720px
+	margin-left: 849px;
+	background-color: #4aaaa5
 }
 
 .nav ul li {
 	display: inline-block;
 	padding-left: 1em;
 	margin-left: 1em
-}
-
-.nav ul li a {
-	color: pink;
 }
 
 .logo {
@@ -69,38 +65,40 @@ header .container {
 	margin-bottom: 1em;
 }
 
-.main-image {
-	float: left;
-	padding: 0 1em 1em 0;
-	width: 160px;
-	height: 240px;
-}
-
 /* Main Content */
 
 .content {
 	width:1000px;
-	margin: auto;
+    margin: auto;
 }
 
 .main {
-	display: inline-block;
 	width: 930px;
-	margin: 40px auto;
+	margin-top: 25px;
 	padding: 40px;
 	background-color: #ffffff;
 	border: 1px solid #dddddd
 }
 
-.spacing {
-	padding-bottom: 0.5em
+input [type=textn], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize:vertical
 }
 
-/* Connect With Me Content */
-
-#connect {
-	font-weight:bold;
-	font-size: 1em;
-	letter-spacing: 0.04em;
-	margin-bottom: 0.5em
+/* Footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+    font-size: 0.8em;
+    color: #cccccc;
+    background-color: #666666;
+    border-top: 7px solid #4aaaa5
 }

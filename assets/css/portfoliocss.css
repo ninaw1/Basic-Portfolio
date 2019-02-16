@@ -1,4 +1,4 @@
-/* About Page CSS */
+/* Portfolio CSS */
 /* HTML Elements */
 
 html {
@@ -31,24 +31,21 @@ header .container {
 	margin: 0 auto 
 }
 
-/* Overall layout */
+/* Overall Layout */
 
 .nav {
-	width: 49%;
+	width: 37%;
 	text-align: right;
-	color: pink;
+	color: #ffffff;
 	font-weight: normal;
-	margin-left: 720px
+	margin-left: 849px;
+	background-color: #4aaaa5
 }
 
 .nav ul li {
 	display: inline-block;
 	padding-left: 1em;
 	margin-left: 1em
-}
-
-.nav ul li a {
-	color: pink;
 }
 
 .logo {
@@ -64,43 +61,62 @@ header .container {
 
 .page-title {
 	font-weight:bold;
-	font-size: 1.5em;
+	font-size: 2em;
 	letter-spacing: 0.04em;
 	margin-bottom: 1em;
+	margin-left: .9em;
+	border-bottom: 1px solid lightgrey
 }
 
 .main-image {
 	float: left;
 	padding: 0 1em 1em 0;
 	width: 160px;
-	height: 240px;
+	height: 240px
 }
 
-/* Main Content */
+/* Portfolio CSS */
+.portfolio-item {
+    display: inline-block;
+    position: relative;
+}
+
+.item-name {
+    position: relative;
+    top: -130px;
+    text-align: center;
+    background-color: #4aaaa5;
+    padding: 0.5em;
+    color: #ffffff;
+    font-size:25px;
+	width: 270px;
+	margin-left: auto
+}
 
 .content {
-	width:1000px;
-	margin: auto;
-}
-
-.main {
-	display: inline-block;
 	width: 930px;
-	margin: 40px auto;
-	padding: 40px;
-	background-color: #ffffff;
-	border: 1px solid #dddddd
+	height: 1220px;
+	background-color: white;
+	margin-top: 5em;
+	margin-left: 16em
 }
 
-.spacing {
-	padding-bottom: 0.5em
+img {
+	height: 270px;
+	width: 270px;
+	margin-left: 2em
 }
 
-/* Connect With Me Content */
-
-#connect {
-	font-weight:bold;
-	font-size: 1em;
-	letter-spacing: 0.04em;
-	margin-bottom: 0.5em
+/* Footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+    font-size: 0.8em;
+    color: #cccccc;
+    background-color: #666666;
+    border-top: 7px solid #4aaaa5
 }
